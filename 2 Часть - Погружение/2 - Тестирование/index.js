@@ -6,4 +6,4 @@ function sayHi(man) {       // Функция которую нужно прот
 QUnit.test("Simple text hello", function(assert){
     assert.ok(sayHi("Hatory") == "Hi Hatory", "Passed");
     // assert.ok( false, "Failed!")
-})
+});
