@@ -6,12 +6,12 @@ function assert(value, desc) {
     document.getElementById("results").appendChild(li);
 }
 
-function forEach(list, callback) {
+function forEach(list, callback) {          // Итеративная функция, которая передается перебираемая коллекция и функция обратного 
     for (var n=0; n<list.length; n++){
         callback.call(list[n], n);
     }
 }
-var weapons = [
+var weapons = [ // коллекция
     { type : 'agent1' },
     { type : 'agent2' },
     { type : 'agent3' }
