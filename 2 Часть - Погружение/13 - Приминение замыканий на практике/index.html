@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        #results li.pass {color: darkgreen;}
+        #results li.fail {color: crimson;  text-transform: uppercase;}
+    </style>
+</head>
+<body>
+    <script>
+    // отладочный код
+        function assert(value, desc) {
+            var li = document.createElement("li");
+            li.className = value ? "pass" : "fail";
+            li.appendChild(document.createTextNode(desc));
+            document.getElementById("results").appendChild(li);
+        }
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>
