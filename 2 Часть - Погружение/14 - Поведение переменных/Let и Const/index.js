@@ -14,7 +14,9 @@ function reportActivity() {
         typeof forMessage === "undefined", "Переменные недоступны вне цикла"
     );
 }
+
 reportActivity();
+
 assert(
     typeof functionActivity === "undefined" && 
     typeof i === "undefined" && 
