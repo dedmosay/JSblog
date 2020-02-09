@@ -10,7 +10,7 @@ function animateIt(elementId) {
                 tick++;
             } else {
                 clearInterval(timer);
-                assert(tick === 100, "Tick доступ через закрытие");
+                assert(tick === 700, "Tick доступ через закрытие");
                 assert(elem, "Элемент также доступ через закрытие");
                 assert(timer, "Ссылка на таймер также получена при закрытии")
             }
@@ -19,4 +19,4 @@ function animateIt(elementId) {
 }
 
 animateIt("box1");
-animateIt("box2");
+//animateIt("box2");

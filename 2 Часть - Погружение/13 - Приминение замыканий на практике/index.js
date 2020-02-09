@@ -23,3 +23,19 @@ var imposter = {};
 
 imposter.getFn = ninja1.getFn;
 assert(imposter.getFn() === 1, "imposter имеет доступ к переменной closeVar")
+
+
+// Генерация исключений
+
+myfunc();
+
+function myfunc () {
+    console.log("Hello!")
+}
+
+var myFunc = () => {
+    console.log("Hello");
+}
+
+myFunc();
+
