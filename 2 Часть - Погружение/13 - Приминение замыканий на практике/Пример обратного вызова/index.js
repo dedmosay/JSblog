@@ -19,4 +19,4 @@ function animateIt(elementId) {
 }
 
 animateIt("box1");
-//animateIt("box2");
+// animateIt("box2");
